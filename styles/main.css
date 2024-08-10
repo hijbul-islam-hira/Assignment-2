@@ -5,16 +5,68 @@
     src: url("../font/miama.regular.ttf");
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Common Styles Here */
+
+body{
+    width: 100%;
+    font-family: Inter;
+    background-color: black;
+}
 
 
 /* Navbar styles */
+header{
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.logo{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size:3rem;
+    text-align: left;    
+}
 .menu-bar {
-   
+    color: #FFFFFF;
+    display: none;
+ 
 }
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.nav-menu{
+.nav-menu ul{
+    list-style: none;
     display: flex;
+    gap: 1rem;
+    border: 2px solid #FFFFFF;
+    border-radius: 25%;
+    padding: 1rem 2rem;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+/* Responsive Code */
+
+@media screen and (max-width:576px){
+    .nav-menu{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .menu-bar i{
+        font-size: 2rem;
+    }
+
+
 }
