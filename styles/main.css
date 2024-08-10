@@ -20,7 +20,7 @@ body{
 
 
 /* Navbar styles */
-header{
+header,main,body{
     width: 90%;
     margin: 2rem auto;
 }
@@ -41,23 +41,33 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.nav-menu{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
 .nav-menu ul{
     list-style: none;
     display: flex;
-    gap: 1rem;
-    border: 2px solid #FFFFFF;
-    border-radius: 25%;
-    padding: 1rem 2rem;
+    gap: 3rem;
+
 }
 .nav-menu ul li a{
     text-decoration: none;
     color: #FFFFFF;
     
 }
+#home{
+    background: rgb(230, 83, 60);
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-left: -18px;
+}
 
 /* Responsive Code */
 
 @media screen and (max-width:576px){
+    /* Navbar responsive */
     .nav-menu{
         display: none;
     }
@@ -67,6 +77,8 @@ nav{
     .menu-bar i{
         font-size: 2rem;
     }
+    
+    /*  */
 
 
 }
