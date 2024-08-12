@@ -16,14 +16,20 @@ body{
     width: 100%;
     font-family: Inter;
     background-color: black;
+    color: #FFFFFF;
+    
 }
 
 
 /* Navbar styles */
-header,main,body{
-    width: 90%;
-    margin: 2rem auto;
+header{
+    width: 100%;
+    margin: 0 auto;
+    max-height: 715px;
+    background-image: linear-gradient(180.00deg, rgb(37, 36, 36),rgba(134, 131, 131, 0) 100%);
+        
 }
+
 
 .logo{
     color: rgb(230, 83, 60);
@@ -40,6 +46,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 2rem;
 }
 .nav-menu{
     border: 2px solid rgba(255, 255, 255, 0.2);
@@ -64,6 +71,110 @@ nav{
     margin-left: -18px;
 }
 
+/* Bannar section Styles */
+#shape{
+    font-family: miama;
+    font-size: 6rem;
+    text-align: left;
+    font-weight: 100;
+    
+}
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+    
+}
+.bannar-container{
+    max-width: 520px;
+    max-height: 440px;
+    
+}
+.bannar-heading{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.bannar-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;  
+    margin-bottom: 2rem;  
+}
+.btn-primary{
+    height: 54px;
+    width: 200px;
+    font-family: Inter;
+    border-radius: 42px;
+    border: 1px solid rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 1rem;
+    
+}
+.btn-download{
+    height: 54px;
+    width: 200px;
+    font-family: Inter;
+    border-radius: 42px;
+    border: 1px solid rgb(238, 236, 236);
+    background-color: rgb(15, 14, 14);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+}
+/* card & image in bannar */
+.card1-heading,.card2-heading{
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+.card1-description,.card2-description{
+    font-family: Inter;
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+.card1,.card2{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 193px;
+    height: 98px;
+    border-radius: 1rem;
+    background-color:rgba(255, 255, 255, 0.1);
+    padding: 1.5rem 2.5rem;
+    
+}
+.card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color:rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.circle i{
+    margin: 0.8rem 1rem;
+    display: none;
+}
 /* Responsive Code */
 
 @media screen and (max-width:576px){
@@ -77,7 +188,7 @@ nav{
     .menu-bar i{
         font-size: 2rem;
     }
-    
+
     /*  */
 
 
