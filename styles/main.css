@@ -213,7 +213,7 @@ nav{
     /*Bannar responsive  */
     .bannar{
         flex-direction: column;
-        margin: 0rem 0.2rem;
+        /* margin: 0rem 0.2rem; */
         
     }
     .bannar-btn{
