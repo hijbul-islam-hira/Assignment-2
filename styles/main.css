@@ -276,7 +276,7 @@ nav{
     
 }
 .run-extra-img{
-    width: 50%;
+    width: 30%;
     height: 250px;
     background-image: url("../images/run.jpg");
     background-size: 180%;
@@ -285,6 +285,16 @@ nav{
     margin: 2rem 2rem ;
     border-radius: 20px;
     
+}
+/* BMI calculator */
+.bmi-heading{
+    max-width: 50%;
+    margin: 0 auto;
+}
+/* BMI calculator container */
+.bmi-get-input{
+    background-color: rgb(34, 34, 34);
+    margin: 0 auto;
 }
 
 /* Responsive Code */
