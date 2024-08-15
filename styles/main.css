@@ -389,6 +389,40 @@ input,select{
     font-size: 0.7rem;
 
 }
+/* Muscle section  */
+.muscle{
+    max-width: 1440px;
+    background-image: linear-gradient(180.00deg, rgb(67, 64, 64),rgba(134, 131, 131, 0) 100%);
+
+}
+.muscle-container{
+    margin: 0.5rem 2rem;
+}
+.muscle-heading{
+    margin: 0 auto;
+    text-align: center;
+
+}
+.muscle-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.muscle-img>img{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.muscle-content>li{
+    
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: left;
+    
+}
 
 
 
@@ -501,6 +535,14 @@ input,select{
     }
     .team-card{
         height: auto;   
+    }
+    .muscle-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+        
+    }
+    .muscle{
+        margin: 5px 0px;
     }
 
 
