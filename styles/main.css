@@ -17,6 +17,7 @@ body{
     font-family: Inter;
     background-color: black;
     color: #FFFFFF;
+    margin: 0 auto;
     
 }
 section{
@@ -217,7 +218,6 @@ nav{
     font-weight: 400;
     line-height: 1rem;
     letter-spacing: 0.3px;
-    text-align: center;
     margin: 1rem 0;    
 }
 .change-habit-containe{
@@ -254,6 +254,37 @@ nav{
 }
 .card>h5{
     margin-top: 1.5rem;
+}
+/* Run an Extra Mile Easily section */
+
+.run-extra-section{
+    margin-top: 3rem;
+}
+.run-extra{
+    max-width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+    /* padding: 10px 20px; */
+}
+.run-extra-container{
+    width: 443px;
+    margin: 2rem 2rem;
+    
+}
+.run-extra-img{
+    width: 50%;
+    height: 250px;
+    background-image: url("../images/run.jpg");
+    background-size: 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2rem 2rem ;
+    border-radius: 20px;
+    
 }
 
 /* Responsive Code */
@@ -318,15 +349,31 @@ nav{
         margin-top: 2rem;
 
     }
+    .card{
+        width: 50%;
+    }
     .card>img{
-        width: 60%;
+        width: 100%;
         border-radius: 50%; 
            
     }
-    .description{
-        margin: 10px;
+    /* Run extra  */
+    .run-extra{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .run-extra-container{
+        width: 100%;
+
     }
     
+    .run-extra-img{
+        width: 100%;
+    }
+    .description{
+        margin-bottom: 30px;
+    }
 
 
 }
