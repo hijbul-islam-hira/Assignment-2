@@ -235,7 +235,7 @@ nav{
 .change-habit-images{
     display: flex;
     justify-content: space-between;
-    gap: 6rem;
+    gap: 4rem;
     align-items: center;
     margin-top: 4rem;
     
@@ -244,6 +244,7 @@ nav{
 .card{
     text-align: center;
     padding: 10px 10px;
+    width: 25%;
     
 }
 .card>img{
