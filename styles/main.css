@@ -19,6 +19,9 @@ body{
     color: #FFFFFF;
     
 }
+section{
+    margin: 0 2rem;
+}
 
 
 /* Navbar styles */
@@ -196,6 +199,62 @@ nav{
 .bannar-pic{
     position: relative;
 }
+/* change your habit section  */
+.heading{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin: 1rem 0;
+    
+}
+.description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 1rem 0;    
+}
+.change-habit-containe{
+    align-items: center;
+    margin-top: 2rem;
+    
+    
+}
+.change-habit{
+    text-align: center;
+    max-width: 671px;
+    margin: 0 auto;
+
+}
+.change-habit-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    align-items: center;
+    margin-top: 4rem;
+    
+    
+}
+.card{
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+.card>img{
+    width: 100%;
+    border-radius: 50%; 
+       
+}
+.card>h5{
+    margin-top: 1.5rem;
+}
+
 /* Responsive Code */
 
 @media screen and (max-width:576px){
@@ -213,7 +272,7 @@ nav{
     /*Bannar responsive  */
     .bannar{
         flex-direction: column;
-        /* margin: 0rem 0.2rem; */
+        
         
     }
     .bannar-btn{
@@ -245,6 +304,14 @@ nav{
         margin-left: -0.5625rem;
         margin-top: -21rem;
         
+    }
+    /* Change your habit */
+    .change-habit-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .change-habit-images{
+        flex-direction: column;
     }
 
 
